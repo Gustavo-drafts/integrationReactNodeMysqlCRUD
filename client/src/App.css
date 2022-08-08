@@ -1,0 +1,45 @@
+.app--container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.register--container {
+  padding: 0.6rem 1.2rem;
+  border: 3px solid #000;
+  border-radius: 5px;
+  margin-top: 1.25rem;
+}
+
+.register--title {
+  text-align: center;
+  margin-bottom: 1.25rem;
+  font-family: monospace, sans-serif;
+}
+
+.register--input {
+  display: block;
+  padding: 0.4rem 0.7rem;
+  margin: 10px auto;
+}
+
+.register--button {
+  padding: 0.3rem 1rem;
+
+  background: green;
+  color: white;
+  font-weight: 600;
+
+  border: none;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+  border-radius: 6px;
+
+  transition: 0.2s;
+}
+
+.register--button:hover {
+  background: greenyellow;
+  color: black;
+
+  cursor: pointer;
+}
